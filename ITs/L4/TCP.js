@@ -1813,7 +1813,7 @@ const nullHexs = [
 "\xA0"
 ];
 //Attack Send
-console.log(data);
+console.log(data)
 console.log("IP : "+ target + "\nPORT : " + port + "")
 //skid dek
 var int = setInterval(() => {
