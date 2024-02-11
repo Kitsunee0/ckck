@@ -194,7 +194,7 @@ const sigalgs = [
  'ECDHE-RSA-AES256-SHA:AES256-SHA:HIGH:!AESGCM:!CAMELLIA:!3DES:!EDH',
 ];
 
-const cp = cplist(Math.floor(Math.random() * cplist.length))];
+const cp = cplist(Math.floor(Math.random() * cplist.length));
 
 const lang_header = [
   "he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7",
