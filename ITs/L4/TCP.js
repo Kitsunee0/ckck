@@ -1814,7 +1814,7 @@ const nullHexs = [
 ];
 //Attack Send
 console.log(data)
-console.log("IP : "+ target + "\nPORT : " + port + "")
+console.log("IP : "+ target + "\nPORT : " + port + "");
 //skid dek
 var int = setInterval(() => {
     var s = require('net').Socket();
