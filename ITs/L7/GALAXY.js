@@ -375,7 +375,7 @@ const encoding_header = [
   'deflate'
   ];
   
-const enc = encoding_header(Math.floor(Math.random() * encodinh_header.length))];
+const enc = encoding_header(Math.floor(Math.random() * encodinh_header.length));
 
 const type = [
   "text/plain",
@@ -426,7 +426,7 @@ const type = [
   "application/x-shockwave-flash"
  ];
  
- const tipe = type(Math.floor(Math.random() * type.length))];
+ const tipe = type(Math.floor(Math.random() * type.length));
  
  const fetch_site = [
     "same-origin",
@@ -435,7 +435,7 @@ const type = [
     "none"
  ];
  
- const fetch = fetch_site(Math.floor(Math.random() * fetch_site.length))];
+ const fetch = fetch_site(Math.floor(Math.random() * fetch_site.length));
  
 const control_header = [
   'max-age=604800',
@@ -492,7 +492,7 @@ const control_header = [
   'Sec-CH-UA,Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Mobile,Sec-CH-UA-Model,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version,Sec-CH-UA-WoW64'
   ];
   
-  const kontol = control_header(Math.floor(Math.random() * control_header.length))];
+  const kontol = control_header(Math.floor(Math.random() * control_header.length));
  
  const ref = [
   'https://www.google.com',
@@ -661,7 +661,7 @@ const control_header = [
   "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/x-www-form-urlencoded,text/plain,application/json,application/xml,application/xhtml+xml,text/css,text/javascript,application/javascript,application/xml-dtd,text/csv,application/vnd.ms-excel"
   ]; 
   
-  const acc = accept_header(Math.floor(Math.random() * accept_header.length))];
+  const acc = accept_header(Math.floor(Math.random() * accept_header.length));
   
   const metod [
   'GET',
@@ -672,7 +672,7 @@ const control_header = [
   'CONNECT'
   ]
   
-  const random = metod(Math.floor(Math.random metod.length))];
+  const random = metod(Math.floor(Math.random metod.length));
 
  try {
 var UAs = fs.readFileSync('ua.txt', 'utf-8').toString().replace(/\r/g, '').split('\n');
