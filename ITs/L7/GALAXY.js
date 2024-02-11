@@ -14,7 +14,7 @@ tls.DEFAULT_ECDH_CURVE;
 let payload = {};
 
 try {
-var proxies = fs.readFileSync("proxy.txt", 'utf-8').toString().replace(/\r/g, '').split('\n');
+var proxies = fs.readFileSync("proxyy.txt", 'utf-8').toString().replace(/\r/g, '').split('\n');
 } catch(error){
 console.log('Proxy file no found, "proxye.txt".');
 process.exit();
@@ -351,7 +351,7 @@ const lang_header = [
   'zu-ZA,zu;q=0.8'
   ];
   
-const lang = lang_header(Math.floor(Math.random() * lang_header.length))];
+const lang = lang_header(Math.floor(Math.random() * lang_header.length));
   
 const encoding_header = [
   'gzip',
