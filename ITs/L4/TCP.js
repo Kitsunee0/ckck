@@ -7,6 +7,7 @@ if (process.argv.length <= 2) {
     console.log("http://[IP]/ -> Dijawibkan menaruh http:// diawal dan / diakhir, supaya work ygy")
 	process.exit(-1);
 }
+var output = fs.readFileSync('file.txt', function(data) {
 var target = process.argv[2];
 var parsed = url.parse(target);
 var host = url.parse(target).host;
@@ -1812,7 +1813,8 @@ const nullHexs = [
 "\xA0"
 ];
 //Attack Send
-console.log("IP : "+ target + "\nPORT : " + port + "\n---- TCP-KILL ----\n(Pepsi L4 Tools)")
+console.log(data);
+console.log("IP : "+ target + "\nPORT : " + port + "")
 //skid dek
 var int = setInterval(() => {
     var s = require('net').Socket();
