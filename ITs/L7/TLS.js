@@ -10510,7 +10510,7 @@ const refers = [
             cluster.fork();
         }
         console.clear()
-        console.log(`METHOD');
+        console.log(`METHOD`);
         setTimeout(() => {}, process.argv[5] * 1000);
         for (let counter = 1; counter <= args.threads; counter++) {
             cluster.fork();
