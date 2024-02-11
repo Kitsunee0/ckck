@@ -688,7 +688,7 @@ headers["x-requested-with"] = "XMLHttpRequest";
                     const request = client.request(dynHeaders)
                     
                     request.on("response", response => {
-                        //console.log("Response:", response);
+                        console.log("Response:", response);
                         request.close();
                         request.destroy();
                         return
